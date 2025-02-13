@@ -15,7 +15,7 @@
   </p>
 </div>
 
-<div style="display: flex; justify-content: center; gap: 10px;">
+<div style="display: flex; justify-content: center; align-items: center; width: 100%;">
   <img src="./asset/input.png" width="384"/>
   <img src="./asset/output.png" width="384"/>
 </div>
