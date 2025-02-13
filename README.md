@@ -15,10 +15,11 @@
   </p>
 </div>
 
-<div style="display: flex; justify-content: center; align-items: center; width: 100%;">
-  <img src="./asset/input.png" width="384"/>
-  <img src="./asset/output.png" width="384"/>
+<div style="display: flex; justify-content: center; align-items: center; width: 100vw; height: 100vh;">
+  <img src="./asset/input.png" width="500" style="min-width: 0;"/>
+  <img src="./asset/output.png" width="500" style="min-width: 0;"/>
 </div>
+
 
 
 #### Due: TBD, 23:59 KST
