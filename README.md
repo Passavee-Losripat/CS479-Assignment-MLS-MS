@@ -15,9 +15,9 @@
   </p>
 </div>
 
-<div style="display: flex; justify-content: center; align-items: center; width: 100vw; height: 100vh;">
-  <img src="./asset/input.png" width="500" style="min-width: 0;"/>
-  <img src="./asset/output.png" width="500" style="min-width: 0;"/>
+<div style="display: flex; justify-content: center; align-items: center; width: 100vw;">
+  <img src="./asset/input.png" style="width: 25vw; height: auto;"/>
+  <img src="./asset/output.png" style="width: 25vw; height: auto;"/>
 </div>
 
 
