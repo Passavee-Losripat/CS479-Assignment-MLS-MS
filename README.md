@@ -90,13 +90,6 @@ In this assignment, we use **Marching Squares** to convert a 2D scalar field int
 
 Please refer to `points_to_offset` and `edge_to_points` to check the indexing.
 
-
-## Task 3: Marching Cubes (Optional)
-
-???
-
-
-
 ## Grading
 You will receive a zero score if:
 * you do not submit,
