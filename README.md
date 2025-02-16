@@ -3,8 +3,8 @@
     Moving Least Squares and Marching Squares
   </h1>
   <p>
-    <a href=https://mhsung.github.io/kaist-cs479-spring-2025/ target="_blank"><b>KAIST CS479: Machine Learning for 3D Data (Spring 2025)</b></a><br>
-    Programming Assignment 5
+    <a href=https://mhsung.github.io/kaist-cs479-spring-2025/ target="_blank"><b>KAIST CS479: Machine Learning for 3D Data</b></a><br>
+    Programming Assignment 4
   </p>
 </div>
 
@@ -19,10 +19,6 @@
   <img src="./asset/teaser.png" style="width: 60vw; height: auto;"/>
 </div>
 
-
-
-#### Due: TBD, 23:59 KST
-#### Where to Submit: KLMS
 
 ## Description
 Point cloud representations provide a flexible and powerful means of capturing 3D geometry, but they often remain ambiguous for tasks requiring a structured or clearly defined shape. While point clouds can accurately encode spatial information, they are not inherently suited to applications such as direct rendering, simulation, or manufacturing where a continuous surface representation is needed. Consequently, working directly with point clouds can be challenging when the goal is to obtain a precise boundary or closed form.
