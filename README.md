@@ -62,9 +62,7 @@ $$
 To capture local influence, each point $\mathbf{p}_i$ contributes a weight $\mathbf{w}_i$. You should use a Gaussian‐like kernel:
 
 $$
-w_i 
-\;=\; 
-\frac{1}{k_i} \exp\!\Bigl(\!-\tfrac{\|\mathbf{x} - \mathbf{p}_i\|^2}{\epsilon^2}\Bigr),
+w_i =\frac{1}{k_i} \exp\Bigl(\!-\tfrac{\|\mathbf{x} - \mathbf{p}_i\|^2}{\epsilon^2}\Bigr),
 $$
 
 where
