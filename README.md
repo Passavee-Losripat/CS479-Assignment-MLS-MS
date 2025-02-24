@@ -50,8 +50,7 @@ mls_ms
 In this assignment, we use **Moving Least Squares (MLS)** to approximate a local signed distance function $f(\mathbf{x})$ given a set of points $\{\mathbf{p}_i\}$ and their associated normals $\{\mathbf{n}_i\}$. The MLS method computes $f(\mathbf{x})$ by a **weighted average** of local contributions from each neighbor point:
 
 $$
-f(\mathbf{x}) =
-\frac{\sum_{i} w_i \bigl(\mathbf{x} - \mathbf{p}_i\bigr)^{T} \mathbf{n}_i}{\sum_{i} w_i}.
+f(\mathbf{x})=\frac{1}{\sum_{j} w_{j}}\sum_{i} w_{i} \Bigl(\mathbf{x} - \mathbf{p}_{i}\Bigr)^{T}{\mathbf{n}_i}.
 $$
 
 
@@ -60,7 +59,7 @@ $$
 To capture local influence, each point $\mathbf{p}_i$ contributes a weight $\mathbf{w}_i$. You should use a Gaussian‐like kernel:
 
 $$
-w_i =\frac{1}{k_i} \exp\Bigl(-\tfrac{\|\mathbf{x} - \mathbf{p}_i\|^2}{\epsilon^2}\Bigr),
+w_i=\frac{1}{k_i} \exp\Bigl(-\tfrac{\|\mathbf{x} - \mathbf{p}_i\|^2}{\epsilon^2}\Bigr),
 $$
 
 where
