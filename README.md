@@ -3,8 +3,8 @@
     Moving Least Squares and Marching Squares
   </h1>
   <p>
-    <a href=https://mhsung.github.io/kaist-cs479-spring-2025/ target="_blank"><b>KAIST CS479: Machine Learning for 3D Data</b></a><br>
-    Programming Assignment 4
+    <a href=https://mhsung.github.io/kaist-cs479-spring-2025/ target="_blank"><b>KAIST CS479: Machine Learning for 3D Data (Spring 2025)</b></a><br>
+    Programming Assignment 5
   </p>
 </div>
 
@@ -19,6 +19,10 @@
   <img src="./asset/teaser.png" style="width: 60vw; height: auto;"/>
 </div>
 
+
+
+#### Due: TBD, 23:59 KST
+#### Where to Submit: KLMS
 
 ## Description
 Point cloud representations provide a flexible and powerful means of capturing 3D geometry, but they often remain ambiguous for tasks requiring a structured or clearly defined shape. While point clouds can accurately encode spatial information, they are not inherently suited to applications such as direct rendering, simulation, or manufacturing where a continuous surface representation is needed. Consequently, working directly with point clouds can be challenging when the goal is to obtain a precise boundary or closed form.
@@ -90,12 +94,19 @@ In this assignment, we use **Marching Squares** to convert a 2D scalar field int
 
 Please refer to `points_to_offset` and `edge_to_points` to check the indexing.
 
+
+## Task 3: Marching Cubes (Optional)
+
+???
+
+
+
 ## Grading
 You will receive a zero score if:
 * you do not submit,
 * your code is not executable in the Python environment we provided, or
 * your code additionally imports some libraries, or
-* you modify anycode outside of the section marked with `TODO` or use different hyperparameters that are supposed to be fixed as given.
+* you modify any code outside of the section marked with `TODO` or use different hyperparameters that are supposed to be fixed as given.
 
 **Your score will incur a 10% deduction for each missing item in the submission item list.**
 
@@ -114,6 +125,12 @@ Hausdorff Distance | Points
 0.0350⬇️ | 10
 0.1850⬇️ | 5
 0.1850⬆️ | 0
+
+Ratio of Degree 2 | Points
+--- | ---
+1.0000 | 10
+0.9500⬆️ | 5
+0.9500⬇️ | 0
 
 
 #### Plagiarism in any form will also result in a zero score and will be reported to the university.
