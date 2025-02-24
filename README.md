@@ -117,9 +117,9 @@ Hausdorff Distance | Points
 
 Ratio of Degree 2 | Points
 --- | ---
-1.0000 | 10
-0.9500⬆️ | 5
-0.9500⬇️ | 0
+0.9600⬆️ | 10
+0.9000⬆️ | 5
+0.9000⬇️ | 0
 
 
 #### Plagiarism in any form will also result in a zero score and will be reported to the university.
