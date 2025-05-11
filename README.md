@@ -1,6 +1,6 @@
 <div align=center>
   <h1>
-    Moving Least Squares and Marching Squares
+    Implicit Moving Least Squares and Marching Squares
   </h1>
   <p>
     <a href=https://mhsung.github.io/kaist-cs479-spring-2025/ target="_blank"><b>KAIST CS479: Machine Learning for 3D Data</b></a><br>
@@ -45,9 +45,9 @@ mls_ms
 └── README.md           <- This file.
 ```
 
-## Task 1: Moving Least Squares for Implicit Function Approximation
+## Task 1: Implicit Moving Least Squares for Implicit Function Approximation
 
-In this assignment, we use **Moving Least Squares (MLS)** to approximate a local signed distance function $f(\mathbf{x})$ given a set of points $\{\mathbf{p}_i\}$ and their associated normals $\{\mathbf{n}_i\}$. The MLS method computes $f(\mathbf{x})$ by a **weighted average** of local contributions from each neighbor point:
+In this assignment, we use **Implicit Moving Least Squares (IMLS)** to approximate a local signed distance function $f(\mathbf{x})$ given a set of points $\{\mathbf{p}_i\}$ and their associated normals $\{\mathbf{n}_i\}$. The MLS method computes $f(\mathbf{x})$ by a **weighted average** of local contributions from each neighbor point:
 
 $$
 f(\mathbf{x})=\frac{1}{\sum_{j} w_{j}}\sum_{i} w_{i} \Bigl(\mathbf{x} - \mathbf{p}_{i}\Bigr)^{T}{\mathbf{n}_i}.
