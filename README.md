@@ -28,7 +28,7 @@ In this assignment, we address these limitations by converting raw point clouds 
 
 ## Setup
 
-This assignment uses pytorch, numpy and matplotlib only. You can use the setup from assignment 4.
+This assignment uses pytorch, numpy and matplotlib only. You can use the setup from assignment 3.
 ```
 conda activate cs479-gs
 ```
@@ -47,7 +47,7 @@ mls_ms
 
 ## Task 1: Implicit Moving Least Squares for Implicit Function Approximation
 
-In this assignment, we use **Implicit Moving Least Squares (IMLS)** to approximate a local signed distance function $f(\mathbf{x})$ given a set of points $\{\mathbf{p}_i\}$ and their associated normals $\{\mathbf{n}_i\}$. The MLS method computes $f(\mathbf{x})$ by a **weighted average** of local contributions from each neighbor point:
+In this assignment, we use **Implicit Moving Least Squares (IMLS)** to approximate a local signed distance function $f(\mathbf{x})$ given a set of points $\{\mathbf{p}_i\}$ and their associated normals $\{\mathbf{n}_i\}$. The IMLS method computes $f(\mathbf{x})$ by a **weighted average** of local contributions from each neighbor point:
 
 $$
 f(\mathbf{x})=\frac{1}{\sum_{j} w_{j}}\sum_{i} w_{i} \Bigl(\mathbf{x} - \mathbf{p}_{i}\Bigr)^{T}{\mathbf{n}_i}.
@@ -92,7 +92,7 @@ You will receive a zero score if:
 * your code additionally imports some libraries, or
 * you modify anycode outside of the section marked with `TODO` or use different hyperparameters that are supposed to be fixed as given.
 
-**Your score will incur a 10% deduction for each missing item in the submission item list.**
+**You only need to submit the `main.ipynb` file.**
 
 Task 1 and Task 2 are worth 10 and 20 points each.
 
@@ -118,5 +118,3 @@ Ratio of Degree 2 | Points
 
 
 #### Plagiarism in any form will also result in a zero score and will be reported to the university.
-
-
