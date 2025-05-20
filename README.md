@@ -47,7 +47,7 @@ mls_ms
 
 ## Task 1: Implicit Moving Least Squares for Implicit Function Approximation
 
-In this assignment, we use **Implicit Moving Least Squares (IMLS)** to approximate a local signed distance function $f(\mathbf{x})$ given a set of points $\{\mathbf{p}_i\}$ and their associated normals $\{\mathbf{n}_i\}$. The IMLS method computes $f(\mathbf{x})$ by a **weighted average** of local contributions from each neighbor point:
+In this assignment, we use **Implicit Moving Least Squares (IMLS)** to approximate an implicit function $f(\mathbf{x})$ given a set of points $\{\mathbf{p}_i\}$ and their associated normals $\{\mathbf{n}_i\}$. The IMLS method computes $f(\mathbf{x})$ by a **weighted average** of local contributions from each neighbor point:
 
 $$
 f(\mathbf{x})=\frac{1}{\sum_{j} w_{j}}\sum_{i} w_{i} \Bigl(\mathbf{x} - \mathbf{p}_{i}\Bigr)^{T}{\mathbf{n}_i}.
@@ -65,7 +65,7 @@ $$
 where
 
 - $\epsilon$ is a *radius* parameter controlling the falloff of influence (sometimes referred to as the “ball radius”). We use 0.01.
-- $k_i$ is the number of neighbor points within $\epsilon$ of $\mathbf{x}$.
+- $k_i$ is the number of neighbor points within $\epsilon$ of $\mathbf{p}_i$.
 
 
 ### TODO
